@@ -14,5 +14,5 @@ app.use(cookieParser());
 app.use('/user', route);
 
 app.listen(9999, () => {
-    console.log('Server is Listening on Port:7352');
+    console.log('Server is Listening on : 9999');
 });
